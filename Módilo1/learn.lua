@@ -7,10 +7,12 @@ local MONSTER_NAME <const> = 'creeper'
 local health = 20
 local maxHealth = 20
 
+
+
 -- comenteario 
 --[[
 comentario de bloco
-
+]]
 
 print(MONSTER_NAME)
 
@@ -22,7 +24,6 @@ health = health ^ 2 -- exponenciação
 
 -- quantas vezes eu posso tirar 3 do número health. Devolve o que sobra
 print(health % 3) -- 2
-]]
 
 
 -- Condicional
@@ -35,3 +36,9 @@ if isHealthCritical then
 else
     print('Ta de boa')
 end
+
+
+-- Comparações lógicas
+-- < <= > >=
+-- Diferente ~=
+
