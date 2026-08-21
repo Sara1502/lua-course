@@ -9,10 +9,12 @@ local maxHealth = 20
 
 
 
+
+
 -- comenteario 
 --[[
 comentario de bloco
-]]
+
 
 print(MONSTER_NAME)
 
@@ -42,3 +44,14 @@ end
 -- < <= > >=
 -- Diferente ~=
 
+
+-- and / e &&
+-- or / ou ||
+
+local isCreeper = MONSTER_NAME == "creeper"
+
+
+local shoudIRun = isCreeper or not isHealthCritical
+local isSafe = not isCreeper and isHealthCritical
+print(isSafe)
+]]
