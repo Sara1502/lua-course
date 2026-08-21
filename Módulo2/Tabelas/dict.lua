@@ -13,3 +13,4 @@ print('------------------------')
 
 local appleColor = fruits['Apple']
 print(string.format( "My apple is %s", appleColor))
+print(string.format( "My banana is %s", fruits.Banana))
