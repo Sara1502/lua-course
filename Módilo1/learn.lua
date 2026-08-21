@@ -7,14 +7,10 @@ local MONSTER_NAME <const> = 'creeper'
 local health = 20
 local maxHealth = 20
 
-
-
-
-
 -- comenteario 
 --[[
 comentario de bloco
-
+]]
 
 print(MONSTER_NAME)
 
@@ -54,4 +50,41 @@ local isCreeper = MONSTER_NAME == "creeper"
 local shoudIRun = isCreeper or not isHealthCritical
 local isSafe = not isCreeper and isHealthCritical
 print(isSafe)
-]]
+
+-- Loop / while
+
+while health > 0 do
+    health = health - 1
+
+    local isHealthFull = health == maxHealth
+    local healthPorcentage = health/maxHealth
+    local isHealthCritical = healthPorcentage <= 0.25
+
+    print(healthPorcentage, isHealthCritical)
+
+end
+
+print("O creeper se foi")
+
+
+-- Loop / repeat
+
+repeat 
+     health = health - 1
+
+    local isHealthFull = health == maxHealth
+    local healthPorcentage = health/maxHealth
+    local isHealthCritical = healthPorcentage <= 0.25
+
+    print(healthPorcentage, isHealthCritical)
+until health <= 0
+
+print("O creeper se foi")
+
+-- Loop / for
+
+for i = 1, 10, 1 do
+    health = health - 1
+end
+
+print("O creeper se foi")
