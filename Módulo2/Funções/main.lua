@@ -25,7 +25,7 @@ print("A data de hoje é " .. getDate())
 
 --- Função com parametro e com retorno
 local function convertKmToMiles(km)
-    local miles = km / 1.689
+    local miles = km / 1.609
     return math.floor( miles + 0.5 )
 end
 
