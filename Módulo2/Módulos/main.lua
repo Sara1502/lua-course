@@ -1,5 +1,5 @@
 local utils = require("utils")
-local sheep = require("creatures/sheep")
+local sheep = require("creatures.sheep")
 
 utils.enableUtf8()
 print()

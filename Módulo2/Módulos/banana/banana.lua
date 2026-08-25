@@ -1,2 +1,2 @@
-local sheep = require("creatures/sheep")
+local sheep = require("creatures.sheep")
 sheep.talk()
