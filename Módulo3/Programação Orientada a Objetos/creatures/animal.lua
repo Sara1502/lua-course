@@ -4,7 +4,7 @@ local Animal = Creature:subclass('Animal')
 
 -- Constructor
 function Animal:initialize(name)
-    Creature.initilize(self, name)
+    Creature.initialize(self, name)
 end
 
 function Animal:isHostile()

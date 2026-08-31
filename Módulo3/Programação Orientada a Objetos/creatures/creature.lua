@@ -6,6 +6,8 @@ local Creature = class('Creature')
 -- Constructor
 function Creature:initialize(name)
     self.name = name
+    self.health = 0
+    self.maxHealth = 0
 end
 
 
