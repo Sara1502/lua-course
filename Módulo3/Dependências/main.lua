@@ -19,5 +19,5 @@ local creatures = {
 }
 
 for _,creature in pairs(creatures) do
-    creature.printInfo()
+    creature:printInfo()
 end

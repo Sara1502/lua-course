@@ -4,8 +4,8 @@ local Sheep = Animal:subclass('Sheep')
 
 
 -- Constructor
-function Sheep:initialize(name)
-    Animal.initialize(self, name)
+function Sheep:initialize()
+    Animal.initialize(self, 'Sheep')
     self.health = 4
     self.maxHaelth = 4
 end
