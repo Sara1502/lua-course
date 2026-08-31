@@ -1,4 +1,4 @@
-local Monster = require("creature.monster")
+local Monster = require("creatures.monster")
 
 local Creeper = Monster:subclass('Creeper')
 

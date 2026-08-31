@@ -1,4 +1,4 @@
-local Animal = require("creature.animal")
+local Animal = require("creatures.animal")
 
 local Sheep = Animal:subclass('Sheep')
 

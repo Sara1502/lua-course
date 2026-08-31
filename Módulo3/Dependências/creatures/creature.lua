@@ -1,5 +1,5 @@
 local class = require("libs.middleclass")
-local ansicolorsx = require("lib.ansicolorsx")
+local ansicolorsx = require("libs.ansicolorsx")
 local utils = require("utils")
 
 local Creature = class('Creature')
