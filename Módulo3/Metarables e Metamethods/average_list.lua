@@ -15,7 +15,7 @@ end
 
 
 meta.__lt = function(t1, t2)
-    -- Less then
+    -- Less Than
     return meta.average(t1) < meta.average(t2)
 end
 
